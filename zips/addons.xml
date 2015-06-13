@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.tlbbocs" name="TLBB One Click Setup" version="1.1.4" provider-name="sophieb">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="service.tlbbocs.update" version="0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TLBB One Click Setup</summary>
+    <description lang="en">Allows for a complete fresh setup with pre-installed content. These builds are provided by members of the community and will completely wipe any existing setup you have, the TLBB take no responsibility for the content provided. Please read the description of each build before installing, some may contain adult or unsuitable content.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.Sense8tion" version="1.0" name="Sense8tion Repo" provider-name="Sense8tion">
+	<extension point="xbmc.addon.repository" name="Sense8tion Repo">
+		<info compressed="false">https://github.com/Sense8tion/Sense8tion/raw/master/zips/addons.xml</info>
+		<checksum>https://github.com/Sense8tion/Sense8tion/raw/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/Sense8tion/Sense8tion/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Sense8tion</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
